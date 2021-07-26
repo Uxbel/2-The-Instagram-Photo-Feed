@@ -1,0 +1,51 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, p {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 0;
+}
+
+.post {
+    background-color: white;
+    margin-top: 40px;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+.post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding-right: 10px; 
+    text-align: right;
+    color: grey;
+}
